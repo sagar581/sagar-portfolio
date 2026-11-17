@@ -27,7 +27,7 @@ export const person = {
 // Scrolls across the top of the first screen.
 export const ticker = [
   'Kotlin', 'Jetpack Compose', 'UPI Lite', 'Juspay HyperSDK', 'Flutter', 'Spring Boot', 'Play Integrity',
-  'Razorpay', 'SSL pinning', 'KMM', 'Python', '4 stars on CodeChef', 'Live on Google Play',
+  'Razorpay', 'Firebase Crashlytics', 'Bitrise CI/CD', 'SSL pinning', 'KMM', 'Python', '4 stars on CodeChef', 'Live on Google Play',
 ]
 
 // The languages in the order I met them. Typed out in the About section.
@@ -184,7 +184,7 @@ export const passbook = [
     place: 'Gurugram',
     current: true,
     what: 'Senior SDE, Android. Two apps: Indiabulls Securities and Dhani UPI.',
-    credited: ['Android', 'Kotlin', 'Jetpack Compose', 'Gradle', 'Flutter', 'Juspay HyperSDK', 'UPI', 'App security', 'Bitrise'],
+    credited: ['Android', 'Kotlin', 'Jetpack Compose', 'Gradle', 'Flutter', 'Juspay HyperSDK', 'UPI', 'App security', 'Firebase', 'FCM', 'Crashlytics', 'Bitrise'],
     details: [
       'Started on the fully native app, building in Kotlin and Jetpack Compose with Gradle, before the Flutter migration began.',
       'Payment flows and the Android to Flutter migration on the trading app.',
@@ -225,6 +225,7 @@ export const work = {
       { head: 'Android and Flutter, one app', body: 'Built the communication and navigation handling between native Android and Flutter modules, so one codebase can serve Android and iOS.' },
       { head: 'Modularisation', body: 'Split a large single app into modules with MVI and Clean Architecture, so teams can change one feature without touching the rest.' },
       { head: 'Engagement', body: 'CleverTap, FCM and Firebase for push notifications and tracking.' },
+      { head: 'Stability', body: 'Firebase Crashlytics for crash reporting from production, used to keep the app stable.' },
       { head: 'Build and release', body: 'Bitrise CI/CD, git hooks, and R8 shrinking to cut APK size and cold-start time.' },
     ],
   },
@@ -361,7 +362,7 @@ export const stack = {
     label: 'Also in the kit bag',
     items: [
       'Jetpack Compose', 'KMM', 'MVVM', 'MVI', 'Clean Architecture', 'Coroutines', 'REST APIs', 'SQL',
-      'Gradle', 'Firebase', 'FCM', 'CleverTap', 'R8', 'Git', 'Bitbucket', 'Bitrise', 'AWS Lambda',
+      'Gradle', 'Firebase', 'FCM', 'Firebase Crashlytics', 'CleverTap', 'R8', 'Git', 'Bitbucket', 'Bitrise', 'AWS Lambda',
       'GitHub Copilot', 'Claude Code', 'Cursor',
     ],
   },
